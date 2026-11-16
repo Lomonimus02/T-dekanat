@@ -1,0 +1,31 @@
+PASS  A читает заявку B (GET /requests/:id): 404
+PASS  A открывает документ B: 404
+PASS  A отвечает в заявке B: 404
+PASS  A отменяет заявку B: 404
+PASS  A читает профиль B (GET /students/:id/profile): 403
+PASS  A читает дисциплину/оценки группы B: 404
+PASS  A завершает сеанс B: 404
+PASS  A помечает прочитанным личное уведомление B (marked): 0
+PASS  В списке заявок A нет заявок B: только свои
+PASS  Профиль A — это A: vetrova
+PASS  Студент открывает API сотрудника: 403
+PASS  Студент меняет статус заявки через API сотрудника: 403
+PASS  Сотрудник открывает студенческий API (/home): 403
+PASS  Без входа: /home: 401
+PASS  Без входа: /requests/:id: 401
+PASS  Подделанная cookie: 401
+PASS  CSRF: POST без заголовка X-Requested-With: 403
+PASS  CSRF: POST с чужим Origin: 403
+PASS  Неверный пароль: 401
+PASS  Неверный тип заявки: 400
+PASS  Недопустимое значение поля: 400
+PASS  Cookie сессии HttpOnly: true
+PASS  Cookie сессии SameSite=Lax: true
+PASS  Cookie сессии Secure: true
+PASS  Заголовок Content-Security-Policy: true
+PASS  Заголовок X-Frame-Options/frame-ancestors: true
+PASS  URL: A открывает /requests/<id заявки B> в браузере: не найдена
+PASS  URL: A открывает документ B в браузере: скрыто
+PASS  В HTML нет секретов из .env: false
+
+29 PASS, 0 FAIL
