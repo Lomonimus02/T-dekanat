@@ -1,0 +1,2 @@
+{ "name": "Stellar · Деканат (концепт)", "short_name": "Деканат", "start_url": "/dekanat/", "scope": "/dekanat/", "display": "standalone", "background_color": "#f5f6f8", "theme_color": "#ffdd2d",
+  "icons": [{ "src": "/dekanat/favicon.svg", "sizes": "any", "type": "image/svg+xml" }] }
